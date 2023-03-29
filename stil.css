@@ -1,0 +1,319 @@
+body {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", "Arial", sans-serif;
+}
+
+.frfr {
+  border-radius: 22%;
+}
+
+.header {
+  background-image: url(ajy.jpg);
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 2rem 10rem 0px rgba(0, 0, 0, 50%);
+  margin-top: 0px;
+  filter: blur(0.01rem);
+}
+
+.header-logo {
+  border-radius: 30%;
+  width: 0rem;
+  margin-left: 44rem;
+  margin-top: 1rem;
+}
+
+.nav-item {
+  color: #778899;
+  text-decoration: none;
+  font-weight: 700rem;
+  font-size: 17.1px;
+  margin-left: 8.5rem;
+
+
+
+  transition: color 0.2s ease;
+}
+
+.nav {
+  margin-top: 2rem;
+  background-color: rgb(59, 59, 59);
+  border-radius: 22rem;
+  margin-left: 4rem;
+  margin-right: 5rem;
+}
+
+.nav-items {
+  width: 1rem;
+
+
+}
+
+.text-slog {
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 2rem;
+  color: #ffffff;
+  font-family: 'Roboto Condensed', sans-serif;
+  -webkit-text-stroke: 1px rgb(80, 80, 82);
+}
+
+.slog {
+  font-size: 5rem;
+}
+
+
+.tyrnir {
+  background-color: black;
+  height: 200vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 2rem 10rem 0px rgba(0, 0, 0, 50%);
+
+
+
+}
+
+.text {
+  text-align: center;
+  font-size: 5vh;
+  color: #ffffff;
+  font-family: 'Source Code Pro', monospace;
+  -webkit-text-stroke: 1px rgb(68, 68, 68);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 4rem;
+}
+
+.card {
+  position: relative;
+  background-color: purple;
+  width: 300px;
+  height: 250px;
+  border: 5px solid black;
+  margin: 5rem;
+  /* добавил отступ между карточками */
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 1rem 0.5rem 0px rgb(76, 76, 76);
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
+}
+
+.price {
+  color: #ffffff;
+  -webkit-text-stroke: 1px rgb(80, 80, 82);
+}
+
+.card .price {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card .gold {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 50%;
+  height: 10%;
+  background-color: gold;
+  border: none;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.text-ex {
+  text-align: center;
+  color: #ffffff;
+  font-size: 5vh;
+  -webkit-text-stroke: 1px rgb(68, 68, 68);
+}
+
+.video {
+  margin-top: 5rem;
+  margin-left: 25rem;
+  aspect-ratio: 16 / 9;
+  height: 25rem;
+  border-radius: 2%;
+}
+
+@media (max-width:1432px) {
+  .tyrnir {
+    background-color: black;
+    height: 150rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 2rem 10rem 0px rgba(0, 0, 0, 50%);
+  }
+}
+@media (max-width:1281px) {
+  .nav-item {
+    color: #778899;
+    text-decoration: none;
+    font-weight: 700rem;
+    font-size: 18.1px;
+    margin-left: 5.5rem;
+    transition: color 0.2s ease;
+  }
+  .video{
+    margin-left: 10rem;
+  }
+}
+
+@media (max-width:1200px) {
+  .nav-item {
+    color: #778899;
+    text-decoration: none;
+    font-weight: 0px;
+    font-size: 2rem;
+    margin-left: 15px;
+  }
+
+  .nav-items {
+    width: 2rem;
+  }
+
+  .tyrnir {
+    background-color: black;
+    height: 150rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 2rem 10rem 0px rgba(0, 0, 0, 50%);
+  }
+
+  .video {
+    margin-left: 10rem;
+  }
+
+}
+
+@media (max-width:700px) {
+  .nav {
+    margin-top: 0px;
+    background-color: rgb(59, 59, 59);
+    border-radius: 4rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+
+
+  }
+
+  .nav-item {
+    color: #778899;
+    text-decoration: none;
+    font-weight: 0px;
+    font-size: 15px;
+    margin-left: 15px;
+  }
+
+  .tyrnir {
+    background-color: black;
+    height: 400vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 2rem 10rem 0px rgba(0, 0, 0, 50%);
+  }
+
+  .video {
+
+    text-align: center;
+    margin: 0px;
+    width: 35rem;
+    margin-left: 2rem;
+    height: 25rem;
+
+  }
+}
+
+@media (max-width:388px) {
+  .nav {
+    margin-top: 0px;
+    background-color: rgb(59, 59, 59);
+    border-radius: 1rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+
+
+  }
+
+  .nav-item {
+    color: #778899;
+    text-decoration: none;
+    font-weight: 22px;
+    font-size: 11px;
+    margin-left: 5px;
+
+
+
+
+  }
+
+  .card {
+    position: relative;
+    background-color: purple;
+    width: 150px;
+    height: 100px;
+    border: 5px solid black;
+    margin: 7px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 1rem 0.5rem 0px rgb(76, 76, 76);
+    text-align: center;
+  }
+
+  .card .gold {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 30%;
+    height: 10%;
+    background-color: gold;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+
+  .gold {
+    font-size: 7px;
+  }
+
+  .text-ex {
+    margin-top: 10rem;
+  }
+
+  .video {
+    text-align: center;
+    margin: 0px;
+    width: 20rem;
+    margin-left: 2rem;
+    height: 15rem;
+  }
+
+}
+@media (max-width:360px) {
+  .nav-items {
+    width: 0.5rem;
+  }
+  .video{
+    margin-left:0px ;
+    width: 22.3rem;
+
+  }
+  .tyrnir{
+    height: 150vh;
+  }
+}
